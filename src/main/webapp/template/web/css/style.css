@@ -1,0 +1,301 @@
+/* HOME */
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+body {
+    font-family: "EB Garamond", serif;
+}
+.wp-header {
+    padding: 7px;
+    background-color: #000000c7;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.wp-icon-java {
+    width: 60px;
+    margin-left: 30px;
+}
+.wp-icon-java img {
+    width: 100%;
+}
+.menu-item {
+    display: flex;
+    justify-content: center;
+}
+.menu-item-link {
+    width: 30%;
+    padding: 10px 30px;
+    text-align: center;
+}
+a:hover {
+    text-decoration: none;
+}
+.menu-item-link a {
+    color: white;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu-item-link a:hover {
+    color: #c8a482;
+    transition: 0.3s;
+}
+.link-menu-active {
+    color: #c8a482 !important;
+}
+.wp-footer {
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+.wp-icon {
+    display: flex;
+    justify-content: center;
+}
+.icon-social {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    transition: 0.3s;
+}
+.icon-social i {
+    font-size: 18px;
+}
+.icon-social:hover {
+    color: grey;
+    transition: 0.3s;
+}
+.wp-main-content {
+    padding: 30px;
+    padding-top: 90px;
+}
+.my-img {
+    width: 150px;
+}
+.my-img img {
+    width: 100%;
+}
+.about-txt p {
+    font-size: 30px;
+}
+.about-txt {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 263px;
+    margin-bottom: 100px;
+    /* animation: type 1.5s steps(40, end) forwards; */
+    line-height: 40px;
+    margin-left: 60px;
+}
+.wp-home-content {
+    padding-top: 50px;
+}
+.about-txt p:nth-child(1) {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 263px;
+    animation: type 1.5s steps(40, end) forwards;
+}
+.about-txt p:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    width: 263px;
+    animation: type 1.5s steps(40, end) forwards;
+    animation-delay: 1.6s;
+}
+.about-txt p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    width: 263px;
+    animation: type 1.5s steps(40, end) forwards;
+    animation-delay: 3.2s;
+}
+@keyframes type {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.tech-skill--title {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #c8a482;
+    padding: 30px;
+}
+.tech-skill-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tech-skill-item {
+    width: 30%;
+    position: relative;
+    margin-top: 30px;
+}
+.skill-line {
+    height: 2px;
+    background-color: #c8a482;
+    position: relative;
+}
+li.tech-skill-item p {
+    font-size: 20px;
+}
+.skill-line:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #c8a482;
+    right: 0;
+    top: -4px;
+    border-radius: 50px;
+}
+.wp-education-content {
+    margin-top: 50px;
+    width: 100%;
+}
+.line-table {
+    height: 70px;
+    font-size: 18px;
+}
+.line-table td {
+    padding-top: 22px !important;
+}
+.number-order {
+    position: relative;
+    text-align: center;
+}
+.number-order:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid;
+    border-radius: 50px;
+}
+.time-education {
+    text-align: center;
+}
+.experience-content {
+    display: flex;
+}
+.time-experience {
+    width: 250px;
+    padding-left: 50px;
+}
+.ex-detail {
+    flex: 1;
+    padding-right: 105px;
+}
+.time-experience p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.ex-position {
+    font-size: 18px;
+    font-weight: 600;
+}
+.ex-txt {
+    font-size: 17px;
+}
+.about-content {
+    display: flex;
+    width: 100%;
+    padding-left: 100px;
+}
+.wp-tech-skill {
+    width: 100%;
+}
+
+/* CONTACT */
+.wp-map iframe {
+    width: 100%;
+}
+.wp-main-content-contact {
+    padding: 30px;
+    padding-top: 140px;
+}
+.contact-title p {
+    font-size: 36px;
+}
+.wp-main-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.contact-title {
+    width: 300px;
+}
+.contact-content {
+    flex: 1;
+    display: flex;
+}
+.contact-content--item {
+    width: 30%;
+    text-align: center;
+}
+.contact-icon i {
+    font-size: 30px;
+}
+.contact-txt p {
+    font-size: 20px;
+    line-height: 25px;
+}
+.contact-txt {
+    margin-top: 15px;
+}
+.mail-send--blank {
+    outline: none;
+    border: none;
+    background-color: #80808014;
+    padding: 20px;
+}
+.wp-mail-send {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mail-send--info {
+    width: 31%;
+}
+.mail-send--txt {
+    width: 100%;
+    min-height: 250px;
+    margin-top: 20px;
+}
+.button-submit button {
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+.button-submit {
+    margin-top: 20px;
+}
+
+/* BLOG */
+.table-sub-list td {
+    font-size: 17px;
+}
+.footer-blog {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.wp-map {
+    width: 100%;
+}
